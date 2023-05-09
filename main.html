@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main_plantitas</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/quienesSomos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="img/logo_planta.png">
+</head>    
+    <script src="reloj.js"></script>
+<body onload= "startTime()" style="background-color: #fffcf8;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top menu" style="background-color: #bdecb6">
+            <div class="container-fluid">
+                <a href="main.html"><img src="./img/logo_planta.png" height="50px" alt="Main_plantitas" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link container-fluid" style="color: #2b582d;" aria-current="page"
+                                href="main.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link container-fluid" href="quienessomos.html">¿Quiénes somos? 👨‍💼</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link container-fluid" href="Catalogo_1.html">Catalogo 🌼</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link container-fluid" href="Info_de_la_nasa.html">Nasa Daily Picture 🪐</a>   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  
+       <div class="container-fluid">
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/planta_exterior.jpg" height="600" width="750">
+                    <div class="carousel-caption">
+                        <h3>Todas tus plantas y flores preferidas</h3>
+                        <p>a un precio razonable</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/planta_interior.jpeg" height="600" width="750">
+                    <div class="carousel-caption">
+                        <h3>¿Quienes somos? contacta con nosotros</h3>
+                        <p>o informate para mas credibilidad</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/planta_exterior.jpg" height="600" width="750">
+                    <div class="carousel-caption">
+                        <h3>Mira nuestro catalogo</h3>
+                        <p>y cotiza nuestras opciones</p>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+            </a>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+ <div id="clockdate">  <!--reloj ultra tecnologico y ultra avanzado pantalla increible, reloj increible, super mamada que puse pq esta en la rubrica XDD-->
+      <div class="clockdate-wrapper">
+       <div id="clock"></div>
+        <div id="date"></div>
+   </div>
+   </div>
+<!--cards-->
+<div style="margin-top: 2%;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px; ">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Cartas/PlantaCard3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Plantas exteriores</h5>
+                                <p class="card-text">Plantas perfectas para los lugares donde más compartes con
+                                    tus amigos y familia, no requieren algún tipo de cuidado intenso, ya que se
+                                    adaptan fácil al ambiente.<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px; ">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+
+                            <img src="img/Cartas/PlantaCard2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Plantas Interiores</h5>
+                                <p class="card-text">Ideales para tu espacio personal, acompaña a tus muebles y
+                                    a tu familia. Genera armonía y alegra tu hogar con estas plantas.
+                                    <br><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!--fin cards-->
+        <pre><div class="video-responsive"> <!--videito de youtubi-->
+        <iframe src="https://www.youtube.com/embed/ZHwSjSOUxtI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </pre>
+<!--foooter-->
+<div style="background-color:#bdecb6; margin-top: 2%;">
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-md">
+          <center><a href="#"><img src="./img/logo_planta.png" height="50px" alt="Plantitas uwu"></a>
+          <small><li class="d-block  text-muted">©2023 Derechos reservados</li></small>
+          <small><li class="d-block  text-muted">Duoc UC Sede Maipú</li></small>
+          <small><li class="d-block  text-muted">Ingenieria informática</li></small></center>
+        </div>    
+      </div>    
+    </footer>
+</div>
+<!--fin footer-->
+</body>
+
+</html>
